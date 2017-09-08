@@ -1,6 +1,5 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToEndOfArray(){
-chocolateBars.unshift('milky way')
-
+function addElementToEndOfArray(array, element){
+return [element, ...array]
 }
