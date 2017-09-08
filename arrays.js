@@ -1,5 +1,9 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToEndOfArray(array, element) {
-return [element, ...array]
+return ["milky way", ...chocolateBars]
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  chocolate
 }
